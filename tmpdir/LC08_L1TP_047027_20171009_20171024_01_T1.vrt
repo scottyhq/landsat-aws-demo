@@ -1,0 +1,22 @@
+<VRTDataset rasterXSize="7871" rasterYSize="7971">
+  <SRS>PROJCS["WGS 84 / UTM zone 10N",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",-123],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","32610"]]</SRS>
+  <GeoTransform>  3.5278500000000000e+05,  3.0000000000000000e+01,  0.0000000000000000e+00,  5.3742150000000000e+06,  0.0000000000000000e+00, -3.0000000000000000e+01</GeoTransform>
+  <VRTRasterBand dataType="UInt16" band="1">
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">LC08_L1TP_047027_20171009_20171024_01_T1_B4.vrt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="7871" RasterYSize="7971" DataType="UInt16" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="7871" ySize="7971" />
+      <DstRect xOff="0" yOff="0" xSize="7871" ySize="7971" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="UInt16" band="2">
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">LC08_L1TP_047027_20171009_20171024_01_T1_B5.vrt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="7871" RasterYSize="7971" DataType="UInt16" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="7871" ySize="7971" />
+      <DstRect xOff="0" yOff="0" xSize="7871" ySize="7971" />
+    </SimpleSource>
+  </VRTRasterBand>
+</VRTDataset>
